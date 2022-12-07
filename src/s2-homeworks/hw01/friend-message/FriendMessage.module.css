@@ -1,0 +1,33 @@
+.friendMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.friendImageAndText {
+
+}
+
+.friendImageAndText img {
+
+}
+
+.friendText {
+
+}
+
+.friendText:after {
+
+}
+
+.friendName {
+
+}
+
+.friendMessageText {
+
+}
+
+.friendTime {
+
+}
