@@ -2,14 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
+    /*background: #cc9c00;*/
+    padding: 15px;
 }
 
 .imageAndText {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
-
 }
 
 .imageAndText img {
@@ -18,24 +17,39 @@
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
+    margin-right: 15px;
+    padding: 5px;
+    /*position: relative;*/
 
     background: #0066CC;
-    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
-    border-radius: 8px;
-
+    box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
+    border-radius: 4px 4px 4px;
 }
 
 .text:after {
-
+ /*   content: '';
+    position: relative;
+    left: 99%;
+!*    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;*!
+    border: 10px solid transparent;
+    border-left-color: #0066CC;
+    border-right: 0;
+    border-bottom: 0;
+    margin-top: 0px;
+    margin-right: 0px;*/
 }
 
 .name {
     display: flex;
     justify-content: flex-end;
+    margin-right: 10px;
 
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -47,8 +61,10 @@
 
 .messageText {
     display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+    margin-right: 10px;
 
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -62,9 +78,10 @@
 
 .time {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 12px;
+    margin-top: 5px;
 
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 10px;
