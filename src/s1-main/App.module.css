@@ -2,11 +2,14 @@
     padding-top: 60px;
     max-width: 1280px;
     max-height: 1770px;
-    width: 100%;
+    width: 80%;
+
+    margin-left: 70px;
+    margin-right: 70px;
+
 
     background: #FFFFFF;
     font-family: "Montserrat", sans-serif;
-    /*font-family: 'Montserrat';*/
 }
 
 .hw {
@@ -17,11 +20,14 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .hwTitle {
-    margin-left: 70px;
-    margin-right: 70px;
+    /*margin-left: 70px;
+    margin-right: 70px;*/
+    /*margin: 70px;*/
 
 
     font-style: normal;
