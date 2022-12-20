@@ -9,7 +9,7 @@ type GreetingContainerPropsType = {
 
 export const pureAddUser = (name: string, setError: (err: string) => void, setName: (name: string) => void, addUserCallback: (name: string) => void) => {
     // если имя пустое - показать ошибку, иначе - добавить юзера и очистить инпут
-    name === '' ? setError('Ошибка! Введите имя!') : addUserCallback(name);
+    name.trim() === '' ? setError('Ошибка! Введите имя!') : addUserCallback(name);
     setName('');
 }
 
