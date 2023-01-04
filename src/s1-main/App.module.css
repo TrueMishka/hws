@@ -1,41 +1,28 @@
 .App {
-    padding-top: 60px;
-    max-width: 1280px;
-    max-height: 1770px;
-    width: 80%;
-
     margin-left: 70px;
     margin-right: 70px;
-
-
+    margin-top: 100px;
     background: #FFFFFF;
     font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
 }
 
 .hw {
-    /*background: lightseagreen;*/
+    width: 100%;
+    padding: 30px;
 
-    /*display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;*/
-    padding-top: 30px;
-    padding-bottom: 30px;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
 }
 
 .hwTitle {
-    /*margin-left: 70px;
-    margin-right: 70px;*/
-    /*margin: 70px;*/
-
+    margin-top: 40px;
+    margin-bottom: 10px;
 
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
-    /* identical to box height */
-
-    /*background: olive;*/
     color: #000000;
 }
