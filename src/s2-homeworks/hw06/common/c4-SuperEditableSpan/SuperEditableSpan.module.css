@@ -2,10 +2,21 @@
 }
 
 .span {
+
 }
 
 .input {
+    /*border: 1px solid #D1D1D1;
+    border-radius: 5px;*/
+
+}
+.input:focus {
+/*    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    width: 100%;
+    color: red;*/
 }
 
 .pen {
+
 }
