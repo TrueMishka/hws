@@ -5,19 +5,30 @@
 }
 
 .users {
+    width: 100%;
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 600px;
 }
 
 .thead {
+    text-align: left;
+    background-color: #E5E5E5;
 }
 
 .nameCol {
+    padding: 8px;
 }
 
 .ageCol {
+    padding: 8px;
 }
