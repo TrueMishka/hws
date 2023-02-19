@@ -4,7 +4,7 @@
     left: 0;
     z-index: -100;
     content: '';
-    position: absolute;
+    position: fixed;
     background: rgba(255, 255, 255, 1);
     border-radius: 0.3rem;
     display: none;
