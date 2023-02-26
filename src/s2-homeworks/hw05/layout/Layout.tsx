@@ -17,13 +17,13 @@ export const Layout: FC<PropsType> = ({ children }) => {
     }, [open]) // отключает прокрутку при открытом меню
 
     return (
-        <>
+        <div>
             <Sidebar open={open} handleClose={handleClose} />
             <Header handleOpen={handleOpen} />
             <div>
                 {/*страницы*/}
                 {children}
             </div>
-        </>
+        </div>
     )
 }

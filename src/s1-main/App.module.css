@@ -1,9 +1,12 @@
 .App {
     margin: 130px 70px 40px 70px;
-    background: #FFFFFF;
+    /*background: #FFFFFF;*/
     font-family: "Montserrat", sans-serif;
     align-items: center;
     justify-content: center;
+
+    background-color: var(--background);
+    color: var(--color);
 }
 
 .hw {
@@ -24,5 +27,4 @@
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
-    color: #000000;
 }

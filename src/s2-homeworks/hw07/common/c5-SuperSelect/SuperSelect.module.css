@@ -1,9 +1,15 @@
 .select {
+    width: 171px;
+    height: 36px;
+    padding: 8px;
 }
 
 .select:focus {
 }
 
+.option {
+
+}
 
 .option:hover {
 }
