@@ -17,15 +17,12 @@
 }
 
 .text {
-    /*display: flex;
-    flex-direction: column;*/
     margin-right: 15px;
     padding: 5px;
-    /*position: relative;*/
 
     background: #0066CC;
     box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
-    border-radius: 4px 4px 4px;
+    border-radius: 10px;
 }
 
 .text:after {
@@ -48,6 +45,7 @@
 .name {
     display: flex;
     justify-content: flex-end;
+    margin-left: 10px;
     margin-right: 10px;
 
     font-style: normal;
@@ -78,14 +76,15 @@
 
 .time {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 12px;
-    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+
+    width: 48px;
 
     font-style: normal;
     font-weight: 600;
     font-size: 10px;
     line-height: 12px;
 
-    color: #000000;
+    color: var(--color);
 }
