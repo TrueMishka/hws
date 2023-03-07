@@ -11,7 +11,7 @@
 
 .hw {
     width: 100%;
-    height: 330px;
+    min-height: 330px;
     padding-top: 30px;
     padding-bottom: 30px;
 

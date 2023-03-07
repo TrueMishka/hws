@@ -2,6 +2,18 @@
 }
 
 .responseContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    gap: 100px;
+}
+
+@media (max-width: 768px) {
+    .responseContainer {
+        flex-direction: column;
+    }
 }
 
 .imageContainer {
@@ -11,12 +23,16 @@
 }
 
 .textContainer{
+    font-weight: bold;
 }
 
 .code {
+    font-size: 30px;
 }
 
 .text {
+    font-size: 16px;
 }
 .info {
+    font-size: 16px;
 }
