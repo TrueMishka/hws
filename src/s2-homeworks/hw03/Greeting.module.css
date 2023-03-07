@@ -64,7 +64,7 @@
 }
 
 .button:hover {
-    color: black;
+    background: rgba(0, 102, 204, 0.8);
 }
 
 .button:active {

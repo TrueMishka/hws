@@ -1,10 +1,6 @@
 .button {
-    /*display: flex;
-    flex-direction: row;
-    justify-content: center;*/
     align-items: center;
     padding: 5px 24px;
-    margin-right: 24px;
     gap: 10px;
     border-radius: 3px;
 }
@@ -22,21 +18,25 @@
 
 .default {
     background: #0066CC;
+    border-color: #0066CC;
     color: white;
 }
 
 .red {
     background: #CC1439;
+    border-color: #CC1439;
     color: white;
 }
 
 .default:hover {
     background: #0080FF;
+    border-color: #0080FF;
     color: white;
 }
 
 .red:hover {
     background: #FF1A47;
+    border-color: #FF1A47;
     color: white;
 }
 
