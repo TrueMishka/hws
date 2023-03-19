@@ -1,27 +1,49 @@
 .tech {
-    width: 50vw;
+    width: 20vw;
 }
 
 .developer {
-
+    width: 20vw;
 }
 
 .techHeader {
-    width: 50vw;
+    width: 20vw;
 }
 
 .developerHeader {
-
+    width: 20vw;
 }
 
 .row {
+    width: 600px;
     display: flex;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E5E5E5;
 }
 
 .rowHeader {
     display: flex;
+    align-items: center;
+    width: 600px;
+    background-color: #E5E5E5;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
 }
 
+.loadingBlock {
+    z-index: 100;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(1px);
+}
 .loading {
-
+    position: absolute;
+    left: 25%;
+    top: 50%;
 }

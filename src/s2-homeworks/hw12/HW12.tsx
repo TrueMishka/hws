@@ -32,9 +32,6 @@ const HW12 = () => {
         document.documentElement.dataset.theme = themeId.themeId + ''
     }, [themeId.themeId])
 
-    console.log('themeId ' + themeId)
-    console.log(document.documentElement.dataset.theme)
-
     return (
         <div id={'hw12'}>
             <div id={'hw12-text'} className={s2.hwTitle}>

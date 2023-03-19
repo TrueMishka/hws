@@ -1,7 +1,7 @@
 .select {
-    width: 171px;
-    height: 36px;
-    padding: 8px;
+    min-width: 20px;
+    height: 30px;
+    padding: 1px;
 }
 
 .select:focus {
